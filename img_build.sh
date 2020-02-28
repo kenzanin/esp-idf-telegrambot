@@ -4,7 +4,7 @@ arg_project=$1
 arg_flashimg=$2
 
 if [ -z "$2" ]; then
-    echo "Usage: make-flash-img.sh flash_img_file"
+    echo "Usage: make-flash-img.sh flash_img_file.bin"
     echo "if no param given we used default name flash_img.bin"
     arg_flashimg="flash_image.bin"
 fi
